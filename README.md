@@ -22,4 +22,5 @@ This app visualizes the working of famous sorting Algorithms such as:
   $ cd AnanlysisOfAlgorithmsProject
   $ npm install
   $ npm start
+  $ npm audit fix --force
 ```
