@@ -21,6 +21,6 @@ This app visualizes the working of famous sorting Algorithms such as:
   $ git clone https://github.com/BilalAhmed-358/AnanlysisOfAlgorithmsCourseProject.git
   $ cd AnanlysisOfAlgorithmsProject
   $ npm install
-  $ npm start
   $ npm audit fix --force
+  $ npm start
 ```
