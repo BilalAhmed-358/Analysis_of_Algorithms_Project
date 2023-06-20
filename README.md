@@ -1,6 +1,7 @@
 # Sorting Visualizer
 
 Checkout the deployed project [here](https://sorting-algorithms-visualizer-project.netlify.app/).
+
 This application is created using React for visualizing classic sorting algorithms such as merge-sort, quick-sort, insertion-sort, selection-sort, etc.
 
 This app visualizes the working of famous sorting Algorithms such as:
