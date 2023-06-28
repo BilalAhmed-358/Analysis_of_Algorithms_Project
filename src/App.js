@@ -4,7 +4,7 @@ import './App.css'
 import Navbar from './components/Navbar/Navbar'
 import ListBlocks from './components/ListBlocks/ListBlocks'
 import Legends from './components/Legends/Legends'
-
+import GithubLink from './components/GithubLink/GithubLink'
 // Algorithms
 import bubbleSort from './algorithms/bubbleSort'
 import insertionSort from './algorithms/insertionSort'
@@ -115,15 +115,16 @@ function App() {
 								algo === 'countSort' ? sortAccOrder(countSort(blocks)) :
 									algo === 'radixSort' ? sortAccOrder(radixSort(blocks)) :
 										algo === 'fromBook_7_4_5' ? sortAccOrder(fromBook_7_4_5(blocks)) :
-										algo === 'fromBook_8_2_4' ? sortAccOrder(fromBook_8_2_4(blocks)) :
-											(() => {
-												setSorting(false)
-												setCompleted(true)
-											})()
+											algo === 'fromBook_8_2_4' ? sortAccOrder(fromBook_8_2_4(blocks)) :
+												(() => {
+													setSorting(false)
+													setCompleted(true)
+												})()
 	}
 
 	return (
 		<div className="App">
+			<GithubLink />
 			<Navbar
 				generateRandomArray={() => generateRandomArray(len)}
 				handleLength={handleLength}
@@ -136,7 +137,6 @@ function App() {
 				speed={speed}
 				algo={algo}
 			/>
-
 			<ListBlocks
 				blocks={blocks}
 				compare={sorting && compare}
