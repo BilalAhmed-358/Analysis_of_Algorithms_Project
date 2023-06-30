@@ -20,7 +20,7 @@ This app visualizes the working of famous sorting Algorithms such as:
 ## Setting Up & Running the application
 
 ```
-  $ git clone https://github.com/BilalAhmed-358/AnanlysisOfAlgorithmsCourseProject.git
+  $ git clone https://github.com/BilalAhmed-358/Analysis_of_Algorithms_Project.git
   $ cd AnanlysisOfAlgorithmsProject
   $ npm install
   $ npm audit fix --force
